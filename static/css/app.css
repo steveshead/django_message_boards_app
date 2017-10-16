@@ -1,0 +1,27 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #17a2b8;
+}
+
+a:hover {
+  color: #138496;
+  text-decoration: none;
+}
+
+.page-link {
+  color: #17a2b8;
+}
+
+.page-link:hover {
+  color: #138496;
+}
+
+.page-item.active .page-link {
+    z-index: 2;
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
